@@ -4,18 +4,18 @@ install Apache by Rizky
 sudo apt install apache2 -y</pre>
 
 # Memastikan server aktif otomatis saat booting
-sudo systemctl enable apache2
+<pre><code>sudo systemctl enable apache2</pre>
 
 # Menjalankan server
-sudo systemctl start apache2
+<pre><code>sudo systemctl start apache2</pre>
 
 # Memeriksa status server
-sudo systemctl status apache2
+<pre><code>sudo systemctl status apache2</pre>
 
 Konfigurasi Firewall (Opsional)
 Jika server tidak bisa diakses dari perangkat lain dalam satu WiFi, jalankan:
 
-sudo ufw allow 80/tcp
+<pre><code>sudo ufw allow 80/tcp</pre>
 
 Lokasi File & Direktori
 Direktori Utama: /var/www/html/
@@ -24,7 +24,7 @@ Log Error: /var/log/apache2/error.log
 
 Menaruh File Website
 
-sudo nano /var/www/html/index.html
+<pre><code>sudo nano /var/www/html/index.html</pre>
 
  Cara Mengakses
 Setelah instalasi selesai, kamu bisa mengakses server melalui browser:
