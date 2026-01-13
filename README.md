@@ -4,13 +4,13 @@ install Apache by Rizky
 sudo apt install apache2 -y</pre>
 
 # Memastikan server aktif otomatis saat booting
-<pre><code>sudo systemctl enable apache2</pre>
+<pre><code>sudo systemctl enable apache2
 
 # Menjalankan server
-<pre><code>sudo systemctl start apache2</pre>
+<pre><code>sudo systemctl start apache2
 
 # Memeriksa status server
-<pre><code>sudo systemctl status apache2</pre>
+<pre><code>sudo systemctl status apache2
 
 Konfigurasi Firewall (Opsional)
 Jika server tidak bisa diakses dari perangkat lain dalam satu WiFi, jalankan:
