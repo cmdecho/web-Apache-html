@@ -31,5 +31,3 @@ Setelah instalasi selesai, kamu bisa mengakses server melalui browser:
 Lokal (PC ini): <pre><code>http://localhost atau http://127.0.0.1</pre>
 Perangkat Lain (WiFi yang sama): - Cek IP server dengan perintah: hostname -I
 Akses via browser di HP/Laptop lain: http://[ALAMAT-IP-KAMU]
-
-Edit agar command nya saja yg bisa di salin
