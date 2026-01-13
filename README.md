@@ -1,7 +1,7 @@
 install Apache by Rizky 
 
-sudo apt update
-sudo apt install apache2 -y
+<pre><code>sudo apt update
+sudo apt install apache2 -y</pre>
 
 # Memastikan server aktif otomatis saat booting
 sudo systemctl enable apache2
