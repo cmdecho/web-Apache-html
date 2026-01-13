@@ -1,17 +1,16 @@
-# # Install Apache by Rizky 
+Install Apache by Rizky 
 
-### 1. Update & Install Apache
-```bash
-sudo apt update && sudo apt install apache2 -y
+<pre><code>sudo apt update
+sudo apt install apache2 -y</pre>
 
 # Memastikan server aktif otomatis saat booting
-<pre><code>sudo systemctl enable apache2
+<pre><code>sudo systemctl enable apache2</pre>
 
 # Menjalankan server
-<pre><code>sudo systemctl start apache2
+<pre><code>sudo systemctl start apache2</pre>
 
 # Memeriksa status server
-<pre><code>sudo systemctl status apache2
+<pre><code>sudo systemctl status apache2</pre>
 
 Konfigurasi Firewall (Opsional)
 Jika server tidak bisa diakses dari perangkat lain dalam satu WiFi, jalankan:
@@ -29,6 +28,8 @@ Menaruh File Website
 
  Cara Mengakses
 Setelah instalasi selesai, kamu bisa mengakses server melalui browser:
-Lokal (PC ini): http://localhost atau http://127.0.0.1
+Lokal (PC ini): <pre><code>http://localhost atau http://127.0.0.1</pre>
 Perangkat Lain (WiFi yang sama): - Cek IP server dengan perintah: hostname -I
 Akses via browser di HP/Laptop lain: http://[ALAMAT-IP-KAMU]
+
+Edit agar command nya saja yg bisa di salin
