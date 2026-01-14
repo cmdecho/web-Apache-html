@@ -1,4 +1,4 @@
-Install Apache by Rizky 
+**Install Apache by Rizky**
 
 <pre><code>sudo apt update</pre>
  
