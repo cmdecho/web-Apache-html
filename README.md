@@ -2,7 +2,7 @@
 
 <pre><code>sudo apt update</pre>
  
-<pre><code>sudo apt install apache2 -y</pre>
+<pre><code>sudo apt install apache2 -y</pre
 
 # phyton
 
