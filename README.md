@@ -1,7 +1,20 @@
 Install Apache by Rizky 
 
-<pre><code>sudo apt update
-sudo apt install apache2 -y</pre>
+<pre><code>sudo apt update</pre>
+ 
+<pre><code>sudo apt install apache2 -y</pre>
+
+phyton 
+
+<pre><code>sudo apt install libapache2-mod-wsgi-py3 -y</pre>
+<pre><code>
+sudo systemctl restart apache2</pre>
+
+php
+
+<pre><code>sudo apt install php libapache2-mod-php -y</pre>
+
+
 
 # Memastikan server aktif otomatis saat booting
 <pre><code>sudo systemctl enable apache2</pre>
