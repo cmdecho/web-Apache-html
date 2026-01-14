@@ -1,10 +1,10 @@
-**Install Apache by Rizky**
+# Install Apache by Rizky
 
 <pre><code>sudo apt update</pre>
  
 <pre><code>sudo apt install apache2 -y</pre>
 
-**phyton**
+# phyton
 
 <pre><code>sudo apt install libapache2-mod-wsgi-py3 -y</pre>
 <pre><code>
