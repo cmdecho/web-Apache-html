@@ -10,7 +10,7 @@
 <pre><code>
 sudo systemctl restart apache2</pre>
 
-php
+# php
 
 <pre><code>sudo apt install php libapache2-mod-php -y</pre>
 
@@ -25,21 +25,21 @@ php
 # Memeriksa status server
 <pre><code>sudo systemctl status apache2</pre>
 
-Konfigurasi Firewall (Opsional)
-Jika server tidak bisa diakses dari perangkat lain dalam satu WiFi, jalankan:
+# Konfigurasi Firewall (Opsional)
+# Jika server tidak bisa diakses dari perangkat lain dalam satu WiFi, jalankan:
 
 <pre><code>sudo ufw allow 80/tcp</pre>
 
-Lokasi File & Direktori
-Direktori Utama: /var/www/html/
-File Default: index.html (Ganti isi file ini untuk mengubah tampilan web).
+# Lokasi File & Direktori
+# Direktori Utama: /var/www/html/
+# File Default: index.html (Ganti isi file ini untuk mengubah tampilan web).
 Log Error: /var/log/apache2/error.log
 
-Menaruh File Website
+# Menaruh File Website
 
 <pre><code>sudo nano /var/www/html/index.html</pre>
 
- Cara Mengakses
+# Cara Mengakses
 Setelah instalasi selesai, kamu bisa mengakses server melalui browser:
 Lokal (PC ini): <pre><code>http://localhost atau http://127.0.0.1</pre>
 Perangkat Lain (WiFi yang sama): - Cek IP server dengan perintah: hostname -I
